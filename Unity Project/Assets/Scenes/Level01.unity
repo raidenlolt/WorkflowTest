@@ -129,6 +129,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f2923ecaa4f0943b199c0ee19fe1b6ff, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &263416011 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 413210, guid: f2923ecaa4f0943b199c0ee19fe1b6ff, type: 2}
+  m_PrefabInternal: {fileID: 263416004}
 --- !u!1 &861012915
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +242,7 @@ GameObject:
   - 92: {fileID: 933138933}
   - 124: {fileID: 933138932}
   - 81: {fileID: 933138931}
+  - 114: {fileID: 933138936}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -275,7 +280,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -285,8 +290,8 @@ Camera:
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 4.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -307,11 +312,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 933138930}
   m_LocalRotation: {x: .258819073, y: 0, z: 0, w: .965925813}
-  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalPosition: {x: 1, y: 15, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &933138936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 933138930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab49fcba1efcf44d6b039651e184bebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 263416011}
+  smoothing: 5
 --- !u!1 &1256815864
 GameObject:
   m_ObjectHideFlags: 0

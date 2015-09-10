@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../XSEED/SoundManager/Assets/Scripts/SoundManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerMovement.cs">
     <Files>
-      <File FileName="../../XSEED/SoundManager/Assets/Scripts/SoundManager.cs" Line="348" Column="3" />
-      <File FileName="../../XSEED/SoundManager/Assets/Test/Scripts/TestSound.cs" Line="44" Column="45" />
+      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="53" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
